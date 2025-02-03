@@ -1,0 +1,35 @@
+{
+  "name": "backend-prueba-tecnica",
+  "version": "1.0.0",
+  "description": "prueba tecnica backend",
+  "license": "ISC",
+  "author": "Royer Rutti Ramos",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "preview": "tsc && node dist/app.js",
+    "dev": "tsx watch src/app.ts",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.0",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "typescript": "^5.7.3",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2"
+  }
+}
