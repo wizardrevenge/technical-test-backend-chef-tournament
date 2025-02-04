@@ -1,10 +1,12 @@
 import express from 'express'
+import { requestLogger } from './middleware/request-logger'
 import chefRoutes from './routes/chef.routes'
 import tournamentRoutes from './routes/tournament.routes'
 
 const app = express()
 
 app.use(express.json())
+app.use(requestLogger)
 
 app.use(chefRoutes)
 app.use(tournamentRoutes)
