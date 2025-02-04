@@ -1,0 +1,81 @@
+{
+  "tournaments": [
+    {
+      "name": "Copa Gastronómica del Caribe",
+      "location": "Cartagena, Colombia",
+      "maxChefs": 2
+    },
+    {
+      "name": "Desafío Culinario Andino",
+      "location": "Cusco, Perú",
+      "maxChefs": 3
+    },
+    {
+      "name": "Gourmet Battle Internacional",
+      "location": "Ciudad de México, México",
+      "maxChefs": 4
+    },
+    {
+      "name": "Festival de Sabores Mediterráneos",
+      "location": "Barcelona, España",
+      "maxChefs": 5
+    },
+    {
+      "name": "Reto de la Alta Cocina",
+      "location": "Buenos Aires, Argentina",
+      "maxChefs": 3
+    }
+  ],
+  "chefs": [
+    {
+      "name": "Adriana Campos",
+      "specialty": "Cocina Criolla",
+      "experienceYears": 10
+    },
+    {
+      "name": "Carlos Méndez",
+      "specialty": "Cocina Fusión",
+      "experienceYears": 8
+    },
+    {
+      "name": "Luciana Herrera",
+      "specialty": "Repostería Gourmet",
+      "experienceYears": 12
+    },
+    {
+      "name": "Fernando Rojas",
+      "specialty": "Parrilla y Carnes",
+      "experienceYears": 15
+    },
+    {
+      "name": "Mariana López",
+      "specialty": "Cocina Mediterránea",
+      "experienceYears": 9
+    },
+    {
+      "name": "Jorge Villanueva",
+      "specialty": "Cocina Molecular",
+      "experienceYears": 7
+    },
+    {
+      "name": "Paola Santacruz",
+      "specialty": "Cocina Nikkei",
+      "experienceYears": 11
+    },
+    {
+      "name": "Ricardo Gutiérrez",
+      "specialty": "Cocina Francesa",
+      "experienceYears": 14
+    },
+    {
+      "name": "Sofía Martínez",
+      "specialty": "Cocina Vegana",
+      "experienceYears": 6
+    },
+    {
+      "name": "Esteban Ramírez",
+      "specialty": "Mariscos y Pescados",
+      "experienceYears": 13
+    }
+  ]
+}
